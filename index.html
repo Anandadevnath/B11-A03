@@ -48,11 +48,11 @@
                 class="lg:w-full h-14 relative left-20 lg:visible invisible">
             <img src="./c2-assets/Screenshot 2025-01-31 123518.png" alt=""
                 class="lg:hidden w-44 h-40 relative -left-40">
-            <img src="./c2-assets/hambaga.png" alt="" class="lg:hidden w-50 h-40 relative -left-40 relative left-96">
+            <img src="./c2-assets/hambagaorg.webp" alt="" class="lg:hidden w-24 h-28 relative left-[530px]">
         </div>
 
         <!-- Navigation Links -->
-        <ul class="flex space-x-6 text-black font-medium lg:visible invisible">
+        <ul class="flex space-x-6 text-black font-medium lg:visible invisible relative left-16">
             <li><a href="#" class="hover:text-green-600 text-xl">Product</a></li>
             <li><a href="#" class="hover:text-green-600 text-xl">Services</a></li>
             <li><a href="#" class="hover:text-green-600 text-xl">Contact us</a></li>
@@ -76,11 +76,11 @@
     <!-- home page -->
     <div class="bg-gradient-to-b from-white via-gray-100 to-green-200 lg:px-32 lg:max-h-full lg:w-full w-[1050px] px-0">
         <div class="text-center px-6 mt-32">
-            <h1 class="lg:text-5xl lg:md:text-6xl font-bold text-black text-8xl">
+            <h1 class="lg:text-6xl lg:md:text-6xl font-bold text-black text-8xl">
                 Freshness <span class="text-green-600">You Can</span><br>
                 <span class="text-green-600">Count</span> On, Prices You’ll Love!
             </h1>
-            <p class="mt-4 lg:text-lg text-gray-600 mt-7 text-5xl">
+            <p class="mt-4 lg:text-2xl text-gray-600 mt-7 text-5xl">
                 Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
                 staples, we’ve got you covered every day!
             </p>
@@ -92,7 +92,7 @@
     </div>
 
     <!-- service page -->
-    <div class="lg:w-full max-w-5xl mt-24 lg:mx-auto w-[900px] mx-16">
+    <div class="lg:w-full max-w-5xl mt-24 lg:mx-auto w-[950px] mx-16">
         <h2 class="text-4xl font-bold text-green-600 mb-8 lg:text-4xl text-7xl">Services</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Card 1 -->
@@ -127,13 +127,14 @@
     </div>
 
     <!-- about page -->
-    <section class="max-w-3xl text-center text-black px-6 mx-auto mt-24">
+    <section class="max-w-3xl text-center text-black px-6 mx-auto mt-24 relative lg:left-0 left-80">
         <h1 class="lg:text-4xl text-6xl font-bold">Welcome to My Website</h1>
-        <p class="mt-4 lg:text-lg text-4xl text-gray-500 sm:text-xl">
+        <p class="mt-4 lg:text-lg text-[35px] text-gray-500 sm:text-xl">
             This is a beautifully designed text section using Tailwind CSS. Build amazing websites with ease and style.
         </p>
-        <div class="mt-6">
-            <a href="#" class="lg:px-6 lg:py-3 px-10 py-6 bg-green-400 rounded-lg lg:text-lg text-4xl font-semibold hover:bg-blue-700 transition">
+        <div class="lg:mt-6 mt-16">
+            <a href="#"
+                class="lg:px-6 lg:py-3 px-10 py-7 bg-green-400 lg:rounded-lg rounded-2xl lg:text-lg text-4xl font-semibold hover:bg-blue-700 transition">
                 Get Started
             </a>
         </div>
@@ -146,7 +147,7 @@
 
             <!-- Left Section -->
             <div
-                class="bg-gradient-to-b from-green-400 to-white-100 rounded-2xl lg:p-6 lg:px-6 px-20 lg:py-6 py-20 flex flex-col lg:justify-between justify-center lg:w-[440px] lg:h-[500px] h-[800px] w-[950px] lg:mx-auto ml-auto relative lg:left-0 -left-28 ">
+                class="bg-gradient-to-b from-green-400 to-white-100 rounded-2xl lg:p-6 lg:px-6 px-20 lg:py-6 py-20 flex flex-col lg:justify-between justify-center lg:w-[440px] lg:h-[400px] h-[800px] w-[950px] lg:mx-auto ml-auto relative lg:left-0 -left-28 ">
                 <div>
                     <h3 class="lg:text-3xl text-6xl font-bold text-white lg:mb-4 mb-6 lg:mt-0 mt-20">30% off</h3>
                     <p class="text-black lg:text-xl text-4xl">
@@ -163,10 +164,10 @@
             </div>
 
             <!-- Right Section -->
-            <div class="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-4 mx-10 lg:mt-0 mt-20">
+            <div class="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 lg:gap-10 gap-4 lg:mx-10 mx-16 lg:mt-0 mt-20 relative lg:left-0 -left-[20px]">
                 <!-- Product Card -->
                 <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 -left-32">
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 -left-32">
                     <div class="mr-4">
                         <img src="./c2-assets/onion.jpg" alt="Onion"
                             class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
@@ -179,15 +180,99 @@
                                     d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
                                 </path>
                             </svg>
-                            <span class="ml-1 ">4.2</span>
+                            <span class="ml-1 lg:text-xl text-4xl">3.2</span>
                         </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
+                        <h3 class="font-semibold text-gray-900 lg:text-[19px] text-4xl">Onion 8 KG</h3>
                         <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
                     </div>
                 </div>
                 <!-- Repeat the above div for other product cards -->
                 <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 left-10">
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 left-10">
+                    <div class="mr-4">
+                        <img src="./c2-assets/carrot.jpg" alt="Onion"
+                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
+                    </div>
+                    <div>
+                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
+                                </path>
+                            </svg>
+                            <span class="ml-1 lg:text-xl text-4xl">4.2</span>
+                        </div>
+                        <h3 class="font-semibold text-gray-900 lg:text-[19px] text-4xl">Carrot 1 KG</h3>
+                        <p class="text-gray-600 lg:text-sm text-3xl">$29.79</p>
+                    </div>
+                </div>
+                <!-- Repeat the above div for other product cards -->
+                <div
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 -left-32">
+                    <div class="mr-4">
+                        <img src="./c2-assets/tomato.jpg" alt="Onion"
+                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
+                    </div>
+                    <div>
+                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
+                                </path>
+                            </svg>
+                            <span class="ml-1 lg:text-xl text-4xl">3.2</span>
+                        </div>
+                        <h3 class="font-semibold text-gray-900 lg:text-[17px] text-4xl">Tomato 5 KG</h3>
+                        <p class="text-gray-600 lg:text-sm text-3xl">$19.99</p>
+                    </div>
+                </div>
+                <!-- Repeat the above div for other product cards -->
+                <div
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 left-10 lg:-top-4 top-0">
+                    <div class="mr-4">
+                        <img src="./c2-assets/carrot.jpg" alt="Onion"
+                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
+                    </div>
+                    <div>
+                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
+                                </path>
+                            </svg>
+                            <span class="ml-1 lg:text-xl text-4xl">4.9</span>
+                        </div>
+                        <h3 class="font-semibold text-gray-900 lg:text-[19px] text-4xl">Carrot 7 KG</h3>
+                        <p class="text-gray-600 lg:text-sm text-3xl">$39.10</p>
+                    </div>
+                </div>
+                <!-- Repeat the above div for other product cards -->
+                <div
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 -left-32 lg:-top-4 top-0">
+                    <div class="mr-4">
+                        <img src="./c2-assets/egg.avif" alt="Onion"
+                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
+                    </div>
+                    <div>
+                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
+                                </path>
+                            </svg>
+                            <span class="ml-1 lg:text-xl text-4xl">4.0</span>
+                        </div>
+                        <h3 class="font-semibold text-gray-900 lg:text-[19px] text-4xl">Egg 2 KG</h3>
+                        <p class="text-gray-600 lg:text-sm text-3xl">$49.99</p>
+                    </div>
+                </div>
+                <!-- Repeat the above div for other product cards -->
+                <div
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 left-10 lg:-top-4 top-0">
                     <div class="mr-4">
                         <img src="./c2-assets/onion.jpg" alt="Onion"
                             class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
@@ -200,17 +285,59 @@
                                     d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
                                 </path>
                             </svg>
-                            <span class="ml-1 ">4.2</span>
+                            <span class="ml-1 lg:text-xl text-4xl">4.5</span>
                         </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
+                        <h3 class="font-semibold text-gray-900 lg:text-[19px] text-4xl">Onion 4 KG</h3>
+                        <p class="text-gray-600 lg:text-sm text-3xl">$29.99</p>
+                    </div>
+                </div>
+                <!-- Repeat the above div for other product cards -->
+                <div
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 -left-32 lg:-top-4 top-0">
+                    <div class="mr-4">
+                        <img src="./c2-assets/carrot.jpg" alt="Onion"
+                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
+                    </div>
+                    <div>
+                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
+                                </path>
+                            </svg>
+                            <span class="ml-1 lg:text-xl text-4xl">4.0</span>
+                        </div>
+                        <h3 class="font-semibold text-gray-900 lg:text-[19px] text-4xl">Carrot 3 KG</h3>
+                        <p class="text-gray-600 lg:text-sm text-3xl">$34.99</p>
+                    </div>
+                </div>
+                <!-- Repeat the above div for other product cards -->
+                <div
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 left-10 lg:-top-4 top-0">
+                    <div class="mr-4">
+                        <img src="./c2-assets/egg.avif" alt="Onion"
+                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
+                    </div>
+                    <div>
+                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
+                                </path>
+                            </svg>
+                            <span class="ml-1 lg:text-xl text-4xl">4.2</span>
+                        </div>
+                        <h3 class="font-semibold text-gray-900 lg:text-[19px] text-4xl">Egg 1 KG</h3>
                         <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
                     </div>
                 </div>
                 <!-- Repeat the above div for other product cards -->
                 <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 -left-32">
+                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 -left-32 lg:-top-4 top-0">
                     <div class="mr-4">
-                        <img src="./c2-assets/onion.jpg" alt="Onion"
+                        <img src="./c2-assets/tomato.jpg" alt="Onion"
                             class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
                     </div>
                     <div>
@@ -221,136 +348,10 @@
                                     d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
                                 </path>
                             </svg>
-                            <span class="ml-1 ">4.2</span>
+                            <span class="ml-1 lg:text-xl text-4xl">4.1</span>
                         </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
-                        <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
-                    </div>
-                </div>
-                <!-- Repeat the above div for other product cards -->
-                <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 left-10">
-                    <div class="mr-4">
-                        <img src="./c2-assets/onion.jpg" alt="Onion"
-                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
-                    </div>
-                    <div>
-                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
-                                </path>
-                            </svg>
-                            <span class="ml-1 ">4.2</span>
-                        </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
-                        <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
-                    </div>
-                </div>
-                <!-- Repeat the above div for other product cards -->
-                <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 -left-32">
-                    <div class="mr-4">
-                        <img src="./c2-assets/onion.jpg" alt="Onion"
-                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
-                    </div>
-                    <div>
-                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
-                                </path>
-                            </svg>
-                            <span class="ml-1 ">4.2</span>
-                        </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
-                        <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
-                    </div>
-                </div>
-                <!-- Repeat the above div for other product cards -->
-                <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 left-10">
-                    <div class="mr-4">
-                        <img src="./c2-assets/onion.jpg" alt="Onion"
-                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
-                    </div>
-                    <div>
-                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
-                                </path>
-                            </svg>
-                            <span class="ml-1 ">4.2</span>
-                        </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
-                        <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
-                    </div>
-                </div>
-                <!-- Repeat the above div for other product cards -->
-                <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 -left-32">
-                    <div class="mr-4">
-                        <img src="./c2-assets/onion.jpg" alt="Onion"
-                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
-                    </div>
-                    <div>
-                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
-                                </path>
-                            </svg>
-                            <span class="ml-1 ">4.2</span>
-                        </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
-                        <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
-                    </div>
-                </div>
-                <!-- Repeat the above div for other product cards -->
-                <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 left-10">
-                    <div class="mr-4">
-                        <img src="./c2-assets/onion.jpg" alt="Onion"
-                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
-                    </div>
-                    <div>
-                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
-                                </path>
-                            </svg>
-                            <span class="ml-1 ">4.2</span>
-                        </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
-                        <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
-                    </div>
-                </div>
-                <!-- Repeat the above div for other product cards -->
-                <div
-                    class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[150px] h-[180px] relative lg:left-0 -left-32">
-                    <div class="mr-4">
-                        <img src="./c2-assets/onion.jpg" alt="Onion"
-                            class="lg:w-[100px] w-[160px] lg:h-[100px] h-[180px]">
-                    </div>
-                    <div>
-                        <div class="flex items-center text-yellow-500 text-sm mb-2 lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 w-10" fill="currentColor"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2c.3 0 .6.2.7.5l2.5 5 5.6.8c.3 0 .5.3.5.6 0 .2-.1.4-.2.5l-4.1 4 .9 5.5c0 .3-.1.5-.4.6-.2.2-.5.2-.7 0l-5-2.6-5 2.6c-.3.2-.6.2-.8 0s-.3-.3-.3-.6l1-5.5-4.1-4c-.1-.1-.2-.3-.2-.5 0-.3.2-.5.5-.6l5.5-.8 2.6-5C11.4 2.2 11.7 2 12 2m0-2c-.8 0-1.5.4-1.8 1.2L7.7 6.7l-5.4.8c-1.7.3-2.4 2.5-1.2 3.7l3.9 3.8-.9 5.3c-.3 1.7 1.5 3 3 2.2l4.8-2.5 4.7 2.5c1.5.8 3.3-.5 3-2.2l-.9-5.3 3.9-3.8c1.2-1.2.5-3.4-1.2-3.7l-5.4-.8-2.6-5.5C13.5.4 12.8 0 12 0z">
-                                </path>
-                            </svg>
-                            <span class="ml-1 ">4.2</span>
-                        </div>
-                        <h3 class="font-semibold text-gray-900 lg:text-xl text-4xl">Onion 1 KG</h3>
-                        <p class="text-gray-600 lg:text-sm text-3xl">$39.99</p>
+                        <h3 class="font-semibold text-gray-900 lg:text-[18px] text-4xl">Tomato 1 KG</h3>
+                        <p class="text-gray-600 lg:text-sm text-3xl">$19.99</p>
                     </div>
                 </div>
 
@@ -365,7 +366,7 @@
         <div class="grid md:grid-cols-2 gap-4 mt-16">
             <!-- Daawat Offer -->
             <div
-                class="bg-green-900 p-6 rounded-2xl flex items-center text-white lg:w-[720px] lg:h-[300px] relative w-[950px] h-[500px] lg:left-0 -left-32">
+                class="bg-green-900 p-6 rounded-2xl flex items-center text-white lg:w-[720px] lg:h-[300px] relative w-[960px] h-[500px] lg:left-0 -left-28">
                 <div class="flex flex-col justify-center pl-6 w-1/2">
                     <img src="./c2-assets/dawat-logo.png" alt="Daawat Logo"
                         class="mb-4 relative lg:top-0 -top-10 lg:left-0 -left-10">
@@ -379,7 +380,7 @@
             </div>
             <!-- India Gate Offer -->
             <div
-                class="bg-blue-900 p-6 rounded-2xl flex items-center text-white lg:w-[550px] lg:h-[300px] relative lg:left-24 w-[950px] h-[500px] -left-32">
+                class="bg-blue-900 p-6 rounded-2xl flex items-center text-white lg:w-[550px] lg:h-[300px] relative lg:left-24 w-[96 0px] h-[500px] -left-28">
                 <div class="flex flex-col justify-center pl-6 w-1/2">
                     <img src="./c2-assets/india-gate-logo.png" alt="Daawat Logo"
                         class="mb-4 lg:w-20 w-44 relative lg:top-0 top-0 lg:left-0 left-4">
@@ -395,9 +396,9 @@
     </div>
 
     <!-- footer -->
-    <div class="bg-green-500 lg:p-4 p-4 lg:mt-96 mt-[620px] lg:w-full w-[1050px] lg:px-0 px-2 mx-auto">
+    <div class="bg-green-500 lg:p-4 p-4 lg:mt-96 mt-[620px] lg:w-full w-[1065px] lg:px-0 px-2 mx-auto">
         <div
-            class="lg:max-w-7xl h-[460px] mx-auto bg-gray-100 p-8 rounded-2xl flex items-center bg-green-100  relative lg:-top-64 -top-[450px] lg:w-full w-[930px] lg:h-[480px]  h-[980px]">
+            class="lg:max-w-7xl h-[460px] mx-auto bg-gray-100 p-8 rounded-2xl flex items-center bg-green-100  relative lg:-top-64 -top-[450px] lg:w-full      w-[930px] lg:h-[480px]  h-[980px]">
             <div class="lg:w-96 w-96">
                 <img src="./c2-assets/vegetable-busket.png" alt="Grocery Basket"
                     class=" relative left-80 -top-44 lg:left-0 lg:top-0">
@@ -422,11 +423,11 @@
     </div>
 
     <!-- footer text area -->
-    <div class="bg-green-500 text-white p-6 lg:w-full w-[1050px]  ">
+    <div class="bg-green-500 text-white p-10 lg:p-6 lg:w-full w-[1065px] relative lg:-top-0 -top-[2px]">
         <div class="lg:max-w-7xl mx-auto flex flex-col md:flex-row justify-between relative lg:top-0 -top-32">
             <!-- Left Section -->
             <div class="relative -top-32">
-                <img src="./c2-assets/logo-footer.png" alt="" class="lg:w-[150px] w-[300px] lg:h-[70px] h-">
+                <img src="./c2-assets/logo-footer.png" alt="" class="lg:w-[160px] w-[300px] lg:h-[75px] h-[135px]">
                 </h1>
                 <p class="lg:mt-3 mt-6 lg:mb-3 mb-6 lg:text-xl text-4xl">
                     Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends.
