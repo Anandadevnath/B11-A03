@@ -29,7 +29,7 @@
 
 <body>
     <!-- animation -->
-    <div class="lg:w-full w-[1000px] overflow-hidden bg-green-300 text-white py-3">
+    <div class="lg:w-full w-[1050px] overflow-hidden bg-green-300 text-white py-3">
         <div class="flex space-x-10 animate-marquee">
             <p class="text-2xl font-bold whitespace-nowrap">
                 🚀 Welcome to My Website! | 🌟 Enjoy Smooth Animations! | 🎉 Powered by Tailwind CSS!
@@ -71,10 +71,10 @@
     </nav>
 
     <!-- line -->
-    <div class="w-[1000px] border-t-2 border-green-600 my-4 lg:hidden relative -top-6"></div>
+    <div class="w-[1060px] border-t-2 border-green-600 my-4 lg:hidden relative -top-6"></div>
 
     <!-- home page -->
-    <div class="bg-gradient-to-b from-white via-gray-100 to-green-200 lg:px-32 lg:max-h-full lg:w-full w-[1000px] px-0">
+    <div class="bg-gradient-to-b from-white via-gray-100 to-green-200 lg:px-32 lg:max-h-full lg:w-full w-[1050px] px-0">
         <div class="text-center px-6 mt-32">
             <h1 class="lg:text-5xl lg:md:text-6xl font-bold text-black text-8xl">
                 Freshness <span class="text-green-600">You Can</span><br>
@@ -128,25 +128,25 @@
 
     <!-- about page -->
     <section class="max-w-3xl text-center text-black px-6 mx-auto mt-24">
-        <h1 class="text-4xl font-bold">Welcome to My Website</h1>
-        <p class="mt-4 text-lg text-gray-500 sm:text-xl">
+        <h1 class="lg:text-4xl text-6xl font-bold">Welcome to My Website</h1>
+        <p class="mt-4 lg:text-lg text-4xl text-gray-500 sm:text-xl">
             This is a beautifully designed text section using Tailwind CSS. Build amazing websites with ease and style.
         </p>
         <div class="mt-6">
-            <a href="#" class="px-6 py-3 bg-green-400 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
+            <a href="#" class="lg:px-6 lg:py-3 px-10 py-6 bg-green-400 rounded-lg lg:text-lg text-4xl font-semibold hover:bg-blue-700 transition">
                 Get Started
             </a>
         </div>
     </section>
 
     <!-- contact page -->
-    <div class="lg:w-full w-[1000px] max-w-8xl p-40 mt-24 mx-auto bg-green-100">
+    <div class="lg:w-full w-[1050px] max-w-8xl p-40 mt-24 mx-auto bg-green-100">
         <h2 class="lg:text-4xl text-7xl font-bold text-green-600 mb-6 relative lg:left-0 -left-24">Popular Products</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
 
             <!-- Left Section -->
             <div
-                class="bg-gradient-to-b from-green-400 to-white-100 rounded-2xl lg:p-6 lg:px-6 px-20 lg:py-6 py-20 flex flex-col lg:justify-between justify-center lg:w-[440px] lg:h-[500px] h-[800px] w-[920px] lg:mx-auto ml-auto relative lg:left-0 -left-28 ">
+                class="bg-gradient-to-b from-green-400 to-white-100 rounded-2xl lg:p-6 lg:px-6 px-20 lg:py-6 py-20 flex flex-col lg:justify-between justify-center lg:w-[440px] lg:h-[500px] h-[800px] w-[950px] lg:mx-auto ml-auto relative lg:left-0 -left-28 ">
                 <div>
                     <h3 class="lg:text-3xl text-6xl font-bold text-white lg:mb-4 mb-6 lg:mt-0 mt-20">30% off</h3>
                     <p class="text-black lg:text-xl text-4xl">
@@ -360,13 +360,15 @@
 
     <!-- rice section -->
     <div class="text-white mx-40">
-        <pre class="lg:text-4xl text-7xl font-bold text-green-700 mb-10 mt-32 relative lg:left-0 -left-24">Arrival & Offers</pre>
+        <pre
+            class="lg:text-4xl text-7xl font-bold text-green-700 mb-10 mt-32 relative lg:left-0 -left-24">Arrival & Offers</pre>
         <div class="grid md:grid-cols-2 gap-4 mt-16">
             <!-- Daawat Offer -->
             <div
                 class="bg-green-900 p-6 rounded-2xl flex items-center text-white lg:w-[720px] lg:h-[300px] relative w-[950px] h-[500px] lg:left-0 -left-32">
                 <div class="flex flex-col justify-center pl-6 w-1/2">
-                    <img src="./c2-assets/dawat-logo.png" alt="Daawat Logo" class="mb-4 relative lg:top-0 -top-10 lg:left-0 -left-10">
+                    <img src="./c2-assets/dawat-logo.png" alt="Daawat Logo"
+                        class="mb-4 relative lg:top-0 -top-10 lg:left-0 -left-10">
                     <p class="bg-green-700 px-4 py-4 rounded-xl text-center lg:text-2xl text-4xl">Cook Exotic Dishes</p>
                     <p class="lg:mt-4 mt-6 lg:text-4xl text-6xl">UP to <span class="font-bold">20% OFF</span></p>
                 </div>
@@ -376,9 +378,11 @@
                 </div>
             </div>
             <!-- India Gate Offer -->
-            <div class="bg-blue-900 p-6 rounded-2xl flex items-center text-white lg:w-[550px] lg:h-[300px] relative lg:left-24 w-[950px] h-[500px] -left-32">
+            <div
+                class="bg-blue-900 p-6 rounded-2xl flex items-center text-white lg:w-[550px] lg:h-[300px] relative lg:left-24 w-[950px] h-[500px] -left-32">
                 <div class="flex flex-col justify-center pl-6 w-1/2">
-                    <img src="./c2-assets/india-gate-logo.png" alt="Daawat Logo" class="mb-4 lg:w-20 w-44 relative lg:top-0 top-0 lg:left-0 left-4">
+                    <img src="./c2-assets/india-gate-logo.png" alt="Daawat Logo"
+                        class="mb-4 lg:w-20 w-44 relative lg:top-0 top-0 lg:left-0 left-4">
                     <p class="bg-green-700 px-4 py-4 rounded-xl text-center lg:text-2xl text-4xl">World's No.1 Rice</p>
                     <p class="lg:mt-4 mt-10 lg:text-3xl text-6xl">UP to <span class="font-bold">40% OFF</span></p>
                 </div>
@@ -391,30 +395,40 @@
     </div>
 
     <!-- footer -->
-    <div class="bg-green-500 p-4 mt-96">
+    <div class="bg-green-500 lg:p-4 p-4 lg:mt-96 mt-[620px] lg:w-full w-[1050px] lg:px-0 px-2 mx-auto">
         <div
-            class="max-w-7xl h-[460px] mx-auto bg-gray-100 p-8 rounded-2xl flex items-center bg-green-100  relative -top-64">
-            <img src="./c2-assets/vegetable-busket.png" alt="Grocery Basket" class="w-96 relative left-10">
+            class="lg:max-w-7xl h-[460px] mx-auto bg-gray-100 p-8 rounded-2xl flex items-center bg-green-100  relative lg:-top-64 -top-[450px] lg:w-full w-[930px] lg:h-[480px]  h-[980px]">
+            <div class="lg:w-96 w-96">
+                <img src="./c2-assets/vegetable-busket.png" alt="Grocery Basket"
+                    class=" relative left-80 -top-44 lg:left-0 lg:top-0">
+            </div>
             <div class="ml-6 w-2/3 relative left-24">
-                <h2 class="text-4xl font-bold text-gray-900">Get Grocery News!</h2>
-                <p class="text-gray-700 mt-2">Exclusive training tips, tricks, product deals and more.</p>
+                <h2
+                    class="lg:text-4xl text-7xl font-bold text-gray-900 relative lg:top-0 lg:left-0 top-48 -left-[240px] text-green-500">
+                    Get
+                    Grocery <span class="relative lg:left-0 left-[420px] lg:top-0 -top-[70px]">News!</span></h2>
+                <p class="text-gray-700 mt-2 lg:text-xl text-[40px] relative lg:top-0 lg:left-0 top-40 -left-[200px]">
+                    Exclusive training tips, tricks,<span class="relative lg:left-0 left-10"> product deals and
+                        more.</span>
+                </p>
                 <div class="mt-4 flex flex-col">
                     <input type="email" placeholder="Enter email..."
-                        class="p-4 w-[500px] border rounded-xl focus:outline-none">
-                    <button class="bg-green-700 text-white px-5 py-3 rounded-lg w-40 text-xl mt-10">Subscribe</button>
+                        class="lg:p-4 p-6 lg:w-[500px] w-[750px] border rounded-xl focus:outline-none relative lg:top-0 lg:left-0 top-48 -left-80 lg:text-xl text-4xl">
+                    <button
+                        class="bg-green-700 text-white lg:px-5 lg:py-3 px-10 py-6 rounded-lg lg:w-40 w-64 lg:text-xl text-4xl mt-10 relative lg:top-0 lg:left-0 top-48 -left-[80px]">Subscribe</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- footer text area -->
-    <div class="bg-green-500 text-white p-10">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
+    <div class="bg-green-500 text-white p-6 lg:w-full w-[1050px]  ">
+        <div class="lg:max-w-7xl mx-auto flex flex-col md:flex-row justify-between relative lg:top-0 -top-32">
             <!-- Left Section -->
             <div class="relative -top-32">
-                <img src="./c2-assets/logo-footer.png" alt="">
+                <img src="./c2-assets/logo-footer.png" alt="" class="lg:w-[150px] w-[300px] lg:h-[70px] h-">
                 </h1>
-                <p class="mt-3 text-xl">
+                <p class="lg:mt-3 mt-6 lg:mb-3 mb-6 lg:text-xl text-4xl">
                     Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends.
                 </p>
             </div>
@@ -422,30 +436,32 @@
             <!-- Right Section -->
             <div class="md:w-1/2 flex flex-col md:flex-row justify-between mt-6 md:mt-0">
                 <div class="flex flex-col gap-4 relative -top-32">
-                    <h2 class="font-semibold text-xl">Product</h2>
-                    <h2 class="font-semibold text-xl mt-2">Services</h2>
-                    <h2 class="font-semibold text-xl mt-2">Contact us</h2>
+                    <h2 class="font-semibold lg:text-xl text-5xl">Product</h2>
+                    <h2 class="font-semibold lg:text-xl mt-2 text-5xl">Services</h2>
+                    <h2 class="font-semibold lg:text-xl mt-2 text-5xl">Contact us</h2>
                 </div>
 
-                <div class="mt-6 md:mt-0 relative -top-32">
-                    <h2 class="font-semibold text-lg">Follow Us</h2>
+                <div class="lg:mt-6 mt-20 md:mt-0 relative -top-32">
+                    <h2 class="font-semibold lg:text-lg text-4xl">Follow Us</h2>
                     <div class="flex space-x-4 mt-2 gap-2">
                         <a href="#" class="text-white" title="Facebook">
-                            <i class="fab fa-facebook text-2xl"></i>
+                            <i class="fab fa-facebook lg:text-2xl text-5xl lg:mt-0 mt-4"></i>
                         </a>
                         <a href="#" class="text-white" title="Instagram">
-                            <i class="fab fa-instagram text-2xl"></i>
+                            <i class="fab fa-instagram lg:text-2xl text-5xl lg:mt-0 mt-4"></i>
                         </a>
                         <a href="#" class="text-white" title="LinkedIn">
-                            <i class="fab fa-linkedin text-2xl"></i>
+                            <i class="fab fa-linkedin lg:text-2xl text-5xl lg:mt-0 mt-4"></i>
                         </a>
                         <a href="#" class="text-white" title="YouTube">
-                            <i class="fab fa-youtube text-2xl"></i>
+                            <i class="fab fa-youtube lg:text-2xl text-5xl lg:mt-0 mt-4"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+
+    </div>
 </body>
 
 </html>
