@@ -98,7 +98,7 @@
             <!-- Card 1 -->
             <div class="bg-green-100 lg:p-6 p-32 rounded-2xl shadow-md flex flex-col items-center">
                 <img src="./c2-assets/service.png" alt="24/7 Services Icon"
-                    class="lg:mb-4 mb-10 lg:w-20 w-64 lg:h-20 h-64">
+                    class="lg:mb-4 mb-10 lg:w-20 w-64 lg:h-20 h-64 rounded-full bg-white lg:p-2 p-6">
                 <h3 class="lg:text-xl text-5xl font-bold lg:mb-2 mb-10">24/7 Services</h3>
                 <p class="text-gray-600 text-center lg:text-lg text-5xl">
                     We offer round-the-clock services to ensure you get what you need, when you need it.
@@ -107,7 +107,7 @@
             <!-- Card 2 -->
             <div class="bg-green-100 lg:p-6 p-32 rounded-2xl shadow-md flex flex-col items-center">
                 <img src="./c2-assets/delivery.png" alt="Fast Delivery Icon"
-                    class="lg:mb-4 mb-10 lg:w-20 w-64 lg:h-20 h-64">
+                    class="lg:mb-4 mb-10 lg:w-20 w-64 lg:h-20 h-64 rounded-full bg-white lg:p-2 p-6">
                 <h3 class="lg:text-xl text-5xl font-bold lg:mb-2 mb-10">Fast Delivery</h3>
                 <p class="text-gray-600 text-center lg:text-lg text-5xl">
                     Our dedicated team is always ready to assist you with any queries or concerns.
@@ -116,7 +116,7 @@
             <!-- Card 3 -->
             <div class="bg-green-100 lg:p-6 p-32 rounded-2xl shadow-md flex flex-col items-center">
                 <img src="./c2-assets/healthy.png" alt="Healthy Products Icon"
-                    class="lg:mb-4 mb-10 lg:w-20 w-64 lg:h-20 h-64">
+                    class="lg:mb-4 mb-10 lg:w-20 w-64 lg:h-20 h-64 rounded-full bg-white lg:p-2 p-6">
                 <h3 class="lg:text-xl text-5xl font-bold lg:mb-2 mb-10">Healthy Products</h3>
                 <p class="text-gray-600 text-center lg:text-lg text-5xl">
                     Our products are sourced from the best farms to ensure you get the highest quality and freshest
@@ -164,7 +164,8 @@
             </div>
 
             <!-- Right Section -->
-            <div class="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 lg:gap-10 gap-4 lg:mx-10 mx-16 lg:mt-0 mt-20 relative lg:left-0 -left-[20px]">
+            <div
+                class="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 lg:gap-10 gap-4 lg:mx-10 mx-16 lg:mt-0 mt-20 relative lg:left-0 -left-[20px]">
                 <!-- Product Card -->
                 <div
                     class="bg-gray-100 rounded-2xl shadow p-4 w-60 flex items-center lg:w-[250px] w-[440px] lg:h-[130px] h-[180px] relative lg:left-0 -left-32">
@@ -398,27 +399,33 @@
     <!-- footer -->
     <div class="bg-green-500 lg:p-4 p-4 lg:mt-96 mt-[620px] lg:w-full w-[1065px] lg:px-0 px-2 mx-auto">
         <div
-            class="lg:max-w-7xl h-[460px] mx-auto bg-gray-100 p-8 rounded-2xl flex items-center bg-green-100  relative lg:-top-64 -top-[450px] lg:w-full      w-[930px] lg:h-[480px]  h-[980px]">
-            <div class="lg:w-96 w-96">
+            class="lg:max-w-7xl h-[460px] mx-auto bg-gray-100 p-8 flex items-center bg-green-100  relative lg:-top-64 -top-[450px] lg:w-full w-[940px] lg:h-[480px]  h-[990px] lg:rounded-lg rounded-3xl">
+
+            <div class="lg:visible invisible ">
                 <img src="./c2-assets/vegetable-busket.png" alt="Grocery Basket"
-                    class=" relative left-80 -top-44 lg:left-0 lg:top-0">
+                    class=" relative left-10 top-16 lg:left-0 lg:top-0 lg:w-96 lg:h-full w-[680px] h-[410px]">
             </div>
-            <div class="ml-6 w-2/3 relative left-24">
+
+            <div class="ml-6 w-2/3 relative left-24 ">
+                <img src="./c2-assets/vegetable-busket.png" alt="Grocery Basket"
+                    class=" relative -left-64 top-0 lg:left-0 lg:top-0 lg:w-96 lg:h-full w-[680px] h-[410px] lg:invisible visible">
                 <h2
-                    class="lg:text-4xl text-7xl font-bold text-gray-900 relative lg:top-0 lg:left-0 top-48 -left-[240px] text-green-500">
+                    class="lg:text-4xl text-7xl font-bold text-gray-900 relative lg:-top-32 lg:left-0 top-[20px] -left-[270px] text-green-500">
                     Get
                     Grocery <span class="relative lg:left-0 left-[420px] lg:top-0 -top-[70px]">News!</span></h2>
-                <p class="text-gray-700 mt-2 lg:text-xl text-[40px] relative lg:top-0 lg:left-0 top-40 -left-[200px]">
+                <p
+                    class="text-gray-700 mt-2 lg:text-xl text-[40px] relative lg:-top-28 lg:left-0 -top-10 -left-[200px]">
                     Exclusive training tips, tricks,<span class="relative lg:left-0 left-10"> product deals and
                         more.</span>
                 </p>
                 <div class="mt-4 flex flex-col">
                     <input type="email" placeholder="Enter email..."
-                        class="lg:p-4 p-6 lg:w-[500px] w-[750px] border rounded-xl focus:outline-none relative lg:top-0 lg:left-0 top-48 -left-80 lg:text-xl text-4xl">
+                        class="lg:p-4 p-6 lg:w-[500px] w-[750px] border rounded-xl focus:outline-none relative lg:-top-24  lg:left-0 -top-6 -left-80 lg:text-xl text-4xl">
                     <button
-                        class="bg-green-700 text-white lg:px-5 lg:py-3 px-10 py-6 rounded-lg lg:w-40 w-64 lg:text-xl text-4xl mt-10 relative lg:top-0 lg:left-0 top-48 -left-[80px]">Subscribe</button>
+                        class="bg-green-700 text-white lg:px-5 lg:py-3 px-10 py-6 lg:rounded-lg rounded-2xl lg:w-40 w-64 lg:text-xl text-4xl mt-10 relative lg:-top-28 lg:left-0 -top-6 -left-[80px]">Subscribe</button>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -427,9 +434,9 @@
         <div class="lg:max-w-7xl mx-auto flex flex-col md:flex-row justify-between relative lg:top-0 -top-32">
             <!-- Left Section -->
             <div class="relative -top-32">
-                <img src="./c2-assets/logo-footer.png" alt="" class="lg:w-[160px] w-[300px] lg:h-[75px] h-[135px]">
+                <img src="./c2-assets/logo-footer.png" alt="" class="lg:w-[180px] w-[300px] lg:h-[75px] h-[135px]">
                 </h1>
-                <p class="lg:mt-3 mt-6 lg:mb-3 mb-6 lg:text-xl text-4xl">
+                <p class="lg:mt-3 mt-6 lg:mb-3 mb-6 lg:text-xl text-5xl">
                     Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends.
                 </p>
             </div>
@@ -437,14 +444,14 @@
             <!-- Right Section -->
             <div class="md:w-1/2 flex flex-col md:flex-row justify-between mt-6 md:mt-0">
                 <div class="flex flex-col gap-4 relative -top-32">
-                    <h2 class="font-semibold lg:text-xl text-5xl">Product</h2>
-                    <h2 class="font-semibold lg:text-xl mt-2 text-5xl">Services</h2>
-                    <h2 class="font-semibold lg:text-xl mt-2 text-5xl">Contact us</h2>
+                    <h2 class="font-semibold lg:text-xl lg:mt-0 mt-6 text-5xl">Product</h2>
+                    <h2 class="font-semibold lg:text-xl lg:mt-2 mt-6 text-5xl">Services</h2>
+                    <h2 class="font-semibold lg:text-xl lg:mt-2 mt-6 text-5xl">Contact us</h2>
                 </div>
 
                 <div class="lg:mt-6 mt-20 md:mt-0 relative -top-32">
                     <h2 class="font-semibold lg:text-lg text-4xl">Follow Us</h2>
-                    <div class="flex space-x-4 mt-2 gap-2">
+                    <div class="flex space-x-4 lg:mt-2 mt-6 lg:gap-2 gap-10">
                         <a href="#" class="text-white" title="Facebook">
                             <i class="fab fa-facebook lg:text-2xl text-5xl lg:mt-0 mt-4"></i>
                         </a>
